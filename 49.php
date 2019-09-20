@@ -24,18 +24,7 @@ else:
     print 'Mampus Login GAGAL, Mangga hubungi ADMIN'
     wa()
     restart()
-import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
-from multiprocessing.pool import ThreadPool
-try:
-    import mechanize
-except ImportError:
-    os.system('pip2 install mechanize')
-else:
-    try:
-        import requests
-    except ImportError:
-        os.system('pip2 install requests')
-// Gw ganteng
+
 shell_exec('clear'); 
 function get(){ 
 return trim(fgets(STDIN)); } 
