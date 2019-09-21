@@ -1,30 +1,5 @@
 <?php
 // Gw ganteng
-#decompiled by Mr ProAL
-import os, sys
-print '\x1b[1;32mGeus aya ID Jeung Password nya?'
-print '\x1b[1;32mMangga Login '
-import os, sys
-
-def wa():
-    os.system('xdg-open https://wa.me/628558883118?text=%20Assalamualaikum%20Mr%20ProAL%20Yang%20gans%20,%20Boleh%20minta%20ID+PASS%20Sc%20SpamCall?')
-
-
-def restart():
-    ngulang = sys.executable
-    os.execl(ngulang, ngulang, *sys.argv)
-
-
-user = raw_input('ID: ')
-import getpass
-sandi = raw_input('Password: ')
-if sandi == '161616' and user == 'Mr.ProALGans':
-    print 'ente geus Login'
-    sys.exit
-else:
-    print 'Mampus Login GAGAL, Mangga hubungi ADMIN'
-    wa()
-    restart()
 shell_exec('clear'); 
 function get(){ 
 return trim(fgets(STDIN)); } 
